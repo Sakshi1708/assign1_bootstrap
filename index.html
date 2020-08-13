@@ -1,30 +1,57 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset ="utf-8">
         <meta name="viewpoint" content="width=device-width, initial-scale=1,shrink-to-fit=no">
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">   
         <title>ASSIGNMENT-1</title>
     </head>
 
     <body>
+       <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#" >Ristorante con Fusion</a>
+            <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+            </div>
+            </div>
+        </nav>
+
+        
+
+
         <header class="jumbotron">
+            <span class="p-inline">
             <div class="container">
                 <div class="row">
-                        <div class="row align-items-center">
+                        <div class="col-12 col-sm-10 ">
                         <h2>Ristorante con Fusion</h2>
                         <p><div>We take inspiration from the World's best cuisines, and create a unique fusion experience.</div> 
                         <div>Our lipsmacking creations will tickle your culinary senses!</div></p>
                        
                     </div>
                     </div>
+                    </div>
                 </div>
+                </span>
         </header>
+        
 
-            <div class="container">
-                <div class="row ">
+           <div class="container">
+                <div class="row">
                     <div class="about">
             <h3>About Us</h3>
             <hr>
@@ -51,51 +78,167 @@
             
                
                 <div class="row row-content">
+                    <div class="col-6 col-sm-12">
                 <h2>Corporate Leadership</h2>
+                
                 <h3>Peter Pan Chief <small>Epicurious Officer</small></h3>
+                <div class="p-block">
                 <p><div>Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the 
                     arduous journey to the shores of America with the intention of giving their children the best
-                     future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is 
+                    future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is 
                     available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines
-                     for which <i>The Frying Pan</i> became well known. He brings his zeal for fusion cuisines to this restaurant,
-                      pioneering cross-cultural culinary connections
+                    for which <i>The Frying Pan</i> became well known. He brings his zeal for fusion cuisines to this restaurant,
+                    pioneering cross-cultural culinary connections
                     </div>
                 </p>
                 </div>
+                </div>
+            </div>
                 
                 
                     <div class="row row-content">
+                        <div class="col-12 col-sm-12">
                 <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
                 <div>Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established
-                     family tradition in farming and produce. His experiences growing up on a farm in the Australian outback
-                      gave him great appreciation for varieties of food sources. As he puts it in his own words,<i> Everything 
-                      that runs, wins, and everything that stays, pays!</i>
+                    family tradition in farming and produce. His experiences growing up on a farm in the Australian outback
+                    gave him great appreciation for varieties of food sources. As he puts it in his own words,<i> Everything 
+                    that runs, wins, and everything that stays, pays!</i>
                 </div>   
+                </div>
                 </div>
               
                
                     <div class="row row-content">
+                        <div class="col-12 col-sm-12">
                 <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
                 <div>Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish
                      that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish
                       does not meet his exacting standards. He lives by his motto, <i>You click only if you survive my lick.</i>
                 </div>
                 </div>
+            </div>
+            
                 
                     <div class="row row-content">
+                        <div class="col-12 col-sm-12">
                 <h3>Alberto Somayya <small>Executive Chef</small></h3>
-                <div>Award winning three-star Michelin chef with wide International experience having worked closely with 
+                <div class="d-xs">Award winning three-star Michelin chef with wide International experience having worked closely with 
                     whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences.
                      He says, <i>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</i>
                 </div>
                 </div>
             </div>
+            <h1 class=" col-sm-6 bg-warning text-dark">Reserve a Table</h1>
+            <div class="container">
                 
+            <form>
+                
+                <div class="form-group row">
+                    <label for="guest" class="col-12 col-sm-1 form-check-label" >Number of Guests</label>
+
+                    <span class="col-sm-1 form-check form-check-inline">
+                    <input class="form-check-input "  type="radio" id="iguest" value="option1">
+                    <label for="iguest" class=" form-check-label" > 1</label>
+                    </span>
+
+                    <span class="col-sm-1 form-check form-check-inline">
+                    <input class="form-check-input " type="radio" id="guest2" value="option2">
+                    <label for="guest2" class=" form-check-label" > 2</label>
+                    </span>
+
+                    <span class="col-sm-1 form-check form-check-inline">
+                    <input class="form-check-input col-sm-2" type="radio" id="guest3" value="option3">
+                    <label for="guest3" class=" form-check-label" > 3</label>
+                    </span>
+
+                    <span class="col-sm-1 form-check form-check-inline">
+                    <input class="form-check-input " type="radio" id="guest4" value="option4">
+                    <label for="guest4" class=" form-check-label" > 4</label>
+                    </span>
+
+                    <span class="col-sm-1 form-check form-check-inline">
+                    <input class="form-check-input " type="radio" id="guest5" value="option5"> 
+                    <label for="guest5" class=" form-check-label" > 5</label>
+                    </span>
+
+                  </div>
+                    <div class="form-group row">
+                        <label for="guest" class="col-12 col-sm-1 form-check-label" >Date and Time</label>
+                        <div class="col-6 col-sm-3">
+                            <input type="date" class="form-control" id="guest" placeholder="Date">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <input type="tme" class="form-control" id="guest" placeholder="Time">
+                        </div>
+                    </div>
+                    <div class="form-group row ">
+                        <div class=" col-sm-12 offset-1">
+                            <button class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                        
+                    </form>
+
+            
+           
+               </div> 
+                  
+               <footer class= "footer">
+                <div class="container">
+                <div class="row">
+                <div class="col-5 offset-1 col-sm-2">
+                <h5>Links</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                <h5>Our Address</h5>
+                <div>
+                    <address>
+                        <div>121, Clear Water Bay Road1</div>
+                    <div>Clear Water Bay, Kowloon</div>
+                    <div>HONG KONG</div>
+                    <div>Tel.: +852 1234 5678</div>
+                    <div>Fax: +852 8765 4321</div>
+                    <div>Email:<a href="mailto@confusion.com">confusion@food.net</a></div>
+                </address>
+                </div>
+                </div>
+                <div>
+                    <div class="col-6 col-sm-4 align-self-center">
+                    <div clas="text-center" >
+                        <span class="align-self-center">
+                    <a href="http://google.com/+">google</a>
+                    <a href="http://facebook.com">facebook</a>
+                    <a href="http://linkedin.com">LinkedIn</a>
+                    <a href="http://twitter.com">twitter</a>
+                    <a href="http://you tube.com">youtube</a>
+                    <a href="http://gmail.com">Mail</a>
+                    </span>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        
+            <div class="row justify-content-center">
+                <div class="col-auto" style="text-align: center;">
+                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                </div>
+                </div>
+                
+            </div>
+                </footer>
+
                 <footer class= "footer">
                     <div class="container">
                     <div class="row">
                     <div class="col-5 offset-1 col-sm-2">
-                    <h5>Links</h5>
+                    <h3>Links</h3>
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
@@ -103,45 +246,46 @@
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
+                    
                     <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
+                    <h3>Our Address</h3>
                     <div>
                         <address>
                             <div>121, Clear Water Bay Road1</div>
                         <div>Clear Water Bay, Kowloon</div>
                         <div>HONG KONG</div>
-                        <div>Tel.: +852 1234 5678</div>
-                        <div>Fax: +852 8765 4321</div>
-                        <div>Email:<a href="mailto@confusion.com">confusion@food.net</a></div>
+                        <div><i class="fa fa-phone"></i> :Tel. +852 1234 5678</div>
+                        <div><i class="fa fa-fax"></i> :Fax: +852 8765 4321</div>
+                        <div><i class="fa fa-envelope-o"></i> :Email:<a href="mailto@confusion.com">confusion@food.net</a></div>
                     </address>
                     </div>
                     </div>
                     <div>
                         <div class="col-6 col-sm-4 align-self-center">
                         <div clas="text-center">
-                        <a href="http://google.com/+">google</a>
-                        <a href="http://facebook.com">facebook</a>
-                        <a href="http://linkedin.com">LinkedIn</a>
-                        <a href="http://twitter.com">twitter</a>
-                        <a href="http://you tube.com">youtube</a>
-                        <a href="http://gmail.com">Mail</a>
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus-official fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com"><i class="fa fa-facebook-official fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://linkedin.com"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://you tube.com"><i class="fa fa-youtube-play fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-mail" href="http://gmail.com"><i class="fa fa-envelope-o"></i></a>
 
                         </div>
                     </div>
                     </div>
                 </div>
             
-                <div class="row justify-content-center">
-                    <div class="col-auto">
+                <div class="row justify-content-center ">
+                    <div class="col-auto" style="text-align: center;">
                         <p>© Copyright 2018 Ristorante Con Fusion</p>
                     </div>
-                    </div>
-                    
                 </div>
+                    </div>
+                
                     </footer>
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-                    <!-- Include all compiled plugins (below), or include individual files as needed -->
-                    <script src="js/bootstrap.min.js"></script>
+                    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script> 
+          <script src="node_modules/popper.js/umd/popper.min.js"></script> 
+          <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> 
             
     </body>
-</html>
+</html>  -->

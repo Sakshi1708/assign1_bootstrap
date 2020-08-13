@@ -1,22 +1,33 @@
 .footer{
     background-color:#D1C4E9;
-    margin:50px auto;
-    padding:20px 0px 20px 0px;
+    margin:50px 0px 50px 0px;
+    padding:0px auto;
 }
-
-.row content{
-    margin: 0px 50px 0px 100px;
-    padding: 0px 0px 0px 0px;
-    border-bottom:10px ridge;
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom:1px ridge;
     min-height:400px;
 }
+
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
 .jumbotron{
-    padding: 50px,30px,50px,30px;
+    padding: 70px,30px,70px,30px;
     margin:0px auto;
     background-color:#9575CD;
     color:floralwhite;
 }
 
 .about{
-    margin: 0px,50px,0px,50px;
+    margin: 10px,50px,0px,50px;
 }  
+.nav-col{
+background-color: #563d7c;
+}
+
+.pad{
+    padding:3px 30px 2px 30px; 
+}
